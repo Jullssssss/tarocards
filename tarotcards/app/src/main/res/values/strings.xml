@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">tarot cards</string>
+    <string name="title_activity_choice">Leanback ActivityChoice</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="choice_text">ВЫБРАТЬ СФЕРУ ПРЕДСКАЗАНИЯ</string>
+    <string name="work">работа</string>
+    <string name="relationships">взаимоотношения</string>
+    <string name="family">семья</string>
+    <string name="friends">друзья</string>
+    <string name="choice">Выбрать предсказание</string>
+    <string name="exit">Выход</string>
+    <string name="title_activity_tarot">ActivityTarot</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Get_prediction">Получить предсказание (нельзя получить предсказание дважды)</string>
+    <string name="prediction">Предсказание...</string>
+    <string name="back">Назад</string>
+    <string name="small_peace">Внутренний мир</string>
+    <string name="work1">мир</string>
+    <string name="work2">маг</string>
+    <string name="work3">возрождение</string>
+    <string name="work4">император</string>
+    <string name="work5">колесница</string>
+    <string name="work6">умеренность</string>
+    <string name="relationship1">отшельник</string>
+    <string name="relationship2">сила</string>
+    <string name="relationship3">жрец</string>
+    <string name="relationship4">колесо фортуны</string>
+    <string name="family1">солнце</string>
+    <string name="family2">влюблённые</string>
+    <string name="family3">равновесие</string>
+    <string name="family4">звезда</string>
+    <string name="family5">императрица</string>
+    <string name="inner_world1">мир</string>
+    <string name="inner_world2">смерть</string>
+    <string name="inner_world3">дурак</string>
+    <string name="inner_world4">жрица</string>
+    <string name="inner_world5">башня</string>
+    <string name="inner_world6">луна</string>
+    <string name="inner_world7">повешенный</string>
+    <string name="title_activity_cards_tarot">CardsTarotActivity</string>
+    <string name="course_rating" />
+    <string name="course_name" />
+
+</resources>

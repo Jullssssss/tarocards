@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    tools:context=".ActivityChoice"
+    tools:targetApi="s">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="215dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="505dp"
+        android:textSize="14dp"
+        android:onClick="onClick"
+        android:text="@string/work"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="77dp"
+        tools:layout_conversion_absoluteWidth="161dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="215dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="380dp"
+        android:onClick="onClick"
+        android:text="@string/relationships"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="77dp"
+        tools:layout_conversion_absoluteWidth="161dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="215dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="255dp"
+        android:textSize="14dp"
+        android:onClick="onClick"
+        android:text="@string/family"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="77dp"
+        tools:layout_conversion_absoluteWidth="161dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="215dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="130dp"
+        android:textSize="14dp"
+        android:onClick="onClick"
+        android:text="@string/small_peace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="77dp"
+        tools:layout_conversion_absoluteWidth="161dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_text"
+        android:textSize="30sp"
+        android:textColor="@color/background_gradient_end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_conversion_absoluteHeight="100dp"
+        tools:layout_conversion_absoluteWidth="411dp" />
+
+    <Button
+        android:id="@+id/button_back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:onClick="onClick"
+        android:text="@string/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="5dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
